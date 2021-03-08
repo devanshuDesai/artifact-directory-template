@@ -1,5 +1,15 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+AUTOBRICK: A system for end-to-end automation of building point labels to Brick turtle files
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+BRICK is a schema for representing various building equipment,
+including but not limited to, HVAC air handling units and carbon dioxide
+sensors in different rooms. While the schema is a clear step up over the
+current state-of-the-art, its potential is severely hindered because
+it is not backwards compatible. This means that converting CSV
+files storing building data to a BRICK-compatible data format is a
+cumbersome and imperfect process as different systems use different
+conventions to denote the same systems. This conversion usually required
+human involvement until now. AUTOBRICK is a software tool that automates
+this conversion with minimal human intervention and provides an order
+of magnitude greater speed up (90x) over the current state of the art.
